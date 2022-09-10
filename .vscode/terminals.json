@@ -1,0 +1,15 @@
+{
+    "autorun": true,
+    "autokill": true,
+    "terminals": [
+        {
+            "name": "cmd (.env)",
+            "description": "To run '.env' on startup",
+            "open": true,
+            "focus": true,
+            "commands": [
+                "\".env\\scripts\\activate.bat\""
+            ]
+        }
+    ]
+}
