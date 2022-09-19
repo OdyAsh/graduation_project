@@ -1,8 +1,8 @@
-/.env
+.env/
 imgurApi.txt
-/dataset/0. normal
-/dataset/1. fmemes
-/dataset/2. ememes
-/dataset/3. text
-/dataset/4. thba7o
+!dataset/
+dataset/*
+!dataset/*.pickle
+!dataset/*.csv
+!dataset/*.md
 remove.txt
