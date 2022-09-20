@@ -1,8 +1,7 @@
 .env/
 imgurApi.txt
-!dataset/
+
 dataset/*
 !dataset/*.pickle
 !dataset/*.csv
 !dataset/*.md
-remove.txt
