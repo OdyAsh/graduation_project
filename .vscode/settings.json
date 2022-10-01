@@ -1,3 +1,5 @@
 {
-    "task.allowAutomaticTasks": "off"
+    "task.allowAutomaticTasks": "off",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true
 }

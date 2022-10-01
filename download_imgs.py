@@ -8,7 +8,7 @@ def downloadImgs(imgType, imgsUrls, startIdx = 0, endIdx = -1, offset = 0):
         try:
             if i == endIdx:
                 return
-            possibleBinaryData = img.split('data:image/jpeg;base64,') # to work with links obtained from google images
+            possibleBinaryData = imgsUrls[i].split('data:image/jpeg;base64,') # to work with links obtained from google images
             if len(possibleBinaryData) > 1: # means that the image is stored in base64 format, and the encoding is in the rest of the link, so just decode that part using b64decode() to obtain binary format that could be saved using write(.. 'wb')
                 img = b64decode(possibleBinaryData[1]) # source: https://medium.com/geekculture/scraping-google-image-search-result-dfe01bcbc610
             else:
