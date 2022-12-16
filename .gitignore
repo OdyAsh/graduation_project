@@ -1,6 +1,6 @@
 .env/
 imgurApi.txt
-
+Selfie-*
 dataset/*
 !dataset/*.pickle
 !dataset/*.csv
