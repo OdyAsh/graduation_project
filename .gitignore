@@ -2,6 +2,7 @@
 imgurApi.txt
 Selfie-*
 dataset/*
+dataset_split/*
 !dataset/*.pickle
 !dataset/*.csv
 !dataset/*.md
