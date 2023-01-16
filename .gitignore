@@ -1,4 +1,4 @@
-.env/
+.conda/*
 imgurApi.txt
 Selfie-*
 dataset/*
