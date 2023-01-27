@@ -3,5 +3,6 @@ imgurApi.txt
 Selfie-*
 dataset/*
 dataset_split/*
+dataset_phone_preview/*
 models/*
 dataset_related/Original Dataset - Results On Test Data (without compression).html
