@@ -2,7 +2,9 @@
 imgurApi.txt
 Selfie-*
 dataset/*
+dataset_old/*
 dataset_split/*
 dataset_phone_preview/*
+dataset_related/forAcademicPhotos/*
 models/*
 dataset_related/Original Dataset - Results On Test Data (without compression).html
