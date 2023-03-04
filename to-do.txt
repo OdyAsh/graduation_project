@@ -1,1 +1,18 @@
 re order names of ememes after removing all corrupted (do that to all other folders)
+(with that same step, make sure the academic photos are renamed)
+
+put all "import " statements in dataset_...2.ipynb at the top cell
+
+ChatGPT's opinion on making metadata on its own dataframe vs while generating the images:
+
+Both options have their own advantages and disadvantages, and the choice between them ultimately depends on the specific requirements and constraints of your DL training process.
+
+Option 1: Storing image metadata in a dataframe and passing it as a second input along with the image itself has the advantage of separating the image data and metadata into two distinct inputs, which can simplify the data processing and transformation steps in your DL model. This approach allows you to manipulate the metadata independently of the image data, and can make it easier to apply certain transformations or filters to the metadata.
+
+However, this approach also has some drawbacks. For example, it may require additional storage space and computational resources to manage the metadata dataframe separately from the image data. Additionally, passing the metadata as a separate input can increase the complexity of your DL model, as you need to design a way for the model to integrate the metadata with the image data.
+
+Option 2: Fetching the image metadata while the model is fetching images in a custom data generator function can have the advantage of reducing the storage and computational overhead required to manage the metadata separately. This approach allows you to load the metadata on-the-fly as the model fetches the images, which can be more efficient if you have a large dataset or limited computational resources.
+
+However, this approach also has some drawbacks. For example, it may increase the processing time required to load and integrate the metadata with the image data, which could slow down the overall training process. Additionally, this approach may limit your ability to apply certain transformations or filters to the metadata, as it may be difficult to manipulate the metadata while the model is fetching the images.
+
+Ultimately, the choice between these two options depends on the specific requirements and constraints of your DL training process. If you have limited computational resources and need to optimize the storage and processing overhead, Option 2 may be more efficient. On the other hand, if you need more flexibility and control over the metadata and want to separate it from the image data, Option 1 may be more suitable.
