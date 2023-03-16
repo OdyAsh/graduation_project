@@ -10,3 +10,6 @@ dataset_related/Original Dataset - Results On Test Data (without compression).ht
 models/*
 secrets/*
 secrets/chatgbt_prompts.txt
+dataset_related/Egyptian_Arabic_Conversational_Speech_Corpus/*
+dataset_related/archive_2/*
+academicimagestemp/*
