@@ -1,0 +1,15 @@
+project is about classifying images in a gallery app, to filter them. 
+
+images examples:
+personal images (i.e., selfies)
+
+egyptian memes
+
+foreign memes
+
+academic screenshots/photos
+
+blurry photos
+
+similar photos
+

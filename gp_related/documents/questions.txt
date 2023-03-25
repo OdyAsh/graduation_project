@@ -1,0 +1,23 @@
+a.i related:
+
+1. an image is classified based on two inputs: an image input, and a row of features input;
+
+regarding the row of features input: it consists of details about faces/text in the images, along with other image properties.
+
+so the question --> what is the suitable model architecture to take these two inputs together and classify based on them both?
+
+
+2. to get this "row of features", around 7 hours to process 40k images, but this will persumabely happen once, noting that to detect faces/text, pre-trained models are used 
+
+so the question --> is this suitable for android development? (i.e., where will the pre-trained models be stored? can i make the app work in the background while it processes images? suggestions?)
+
+Also, is there a convenient way to switch python logic/libraries to an android application?
+
+
+3. regarding online training, is it legally acceptable to send images via the network by making the user accept it in "agree on privacy terms" page? are there better alternatives to send image data and their feature rows? is this even feasible?
+
+
+
+4. also regarding online training, if the model is trained to detect a certain face as a certain person, (not just general human/selfie classification anymore), then how will the model on the server adapt to all the new people added?
+
+
