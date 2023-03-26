@@ -15,3 +15,5 @@ dataset_related/archive_2/*
 academicimagestemp/*
 dataset_related/imgsPropsv2.csv
 dataset_related/no metadata, rgb, 306x306, 30 epochs, no augmentation, tf - Results On Test Data.html
+dataset_related/m01cnn on test df, class and probs sorting, no metadata, rgb, 306x306, 30 epochs, no augmentation, tf.html
+dataset_related/m01cnn on test df, probs sorting, no metadata, rgb, 306x306, 30 epochs, no augmentation, tf.html
