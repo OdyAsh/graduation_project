@@ -21,3 +21,5 @@ dataset_related/m01cnn on test df, class and probs sorting, no metadata, 8 batch
 dataset_related/m01cnn on test df, probs sorting, no metadata, 8 batch size, rgb, 306x306, 30 epochs, no augmentation, tf.html
 dataset_related/m01.1cnn on test df, class and probs sorting, no metadata, 32 batch size, rgb, 306x306, 30 epochs, no augmentation, tf.html
 dataset_related/m01.1cnn on test df, probs sorting, no metadata, 32 batch size, rgb, 306x306, 30 epochs, no augmentation, tf.html
+dataset_related/m01.3cnn on test df, class and probs sorting, no metadata, 16 batch size, rgb, 306x306, 30 epochs, no augmentation, tf.html
+dataset_related/m01.3cnn on test df, probs sorting, no metadata, 16 batch size, rgb, 306x306, 30 epochs, no augmentation, tf.html
