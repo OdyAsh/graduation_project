@@ -29,3 +29,5 @@ dataset_related/m02cnn on test df, class and probs sorting, color metadata, 16 b
 dataset_related/m02cnn on test df, probs sorting, color metadata, 16 batch size, rgb, 306x306, 30 epochs, no augmentation, tf.html
 dataset_related/m01.4cnn on test df, class and probs sorting, no metadata, 16 batch size, rgb, 306x306, 30 epochs, rotated, tf.html
 dataset_related/m01.4cnn on test df, probs sorting, no metadata, 16 batch size, rgb, 306x306, 30 epochs, rotated, tf.html
+dataset_related/m02.1cnn on test df, class and probs sorting, color-face metadata, 16 batch size, rgb, 306x306, 30 epochs, no augmentation, tf.html
+dataset_related/m02.1cnn on test df, probs sorting, color-face metadata, 16 batch size, rgb, 306x306, 30 epochs, no augmentation, tf.html
