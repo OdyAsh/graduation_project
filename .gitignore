@@ -14,20 +14,4 @@ dataset_related/Egyptian_Arabic_Conversational_Speech_Corpus/*
 dataset_related/archive_2/*
 academicimagestemp/*
 dataset_related/imgsPropsv2.csv
-dataset_related/no metadata, rgb, 306x306, 30 epochs, no augmentation, tf - Results On Test Data.html
-dataset_related/m01cnn on test df, class and probs sorting, no metadata, rgb, 306x306, 30 epochs, no augmentation, tf.html
-dataset_related/m01cnn on test df, probs sorting, no metadata, rgb, 306x306, 30 epochs, no augmentation, tf.html
-dataset_related/m01cnn on test df, class and probs sorting, no metadata, 8 batch size, rgb, 306x306, 30 epochs, no augmentation, tf.html
-dataset_related/m01cnn on test df, probs sorting, no metadata, 8 batch size, rgb, 306x306, 30 epochs, no augmentation, tf.html
-dataset_related/m01.1cnn on test df, class and probs sorting, no metadata, 32 batch size, rgb, 306x306, 30 epochs, no augmentation, tf.html
-dataset_related/m01.1cnn on test df, probs sorting, no metadata, 32 batch size, rgb, 306x306, 30 epochs, no augmentation, tf.html
-dataset_related/m01.3cnn on test df, class and probs sorting, no metadata, 16 batch size, rgb, 306x306, 30 epochs, no augmentation, tf.html
-dataset_related/m01.3cnn on test df, probs sorting, no metadata, 16 batch size, rgb, 306x306, 30 epochs, no augmentation, tf.html
-dataset_related/m01.4cnn on test df, class and probs sorting, no metadata, 16 batch size, rgb, 306x306, 30 epochs, rescaled, tf.html
-dataset_related/m01.4cnn on test df, probs sorting, no metadata, 16 batch size, rgb, 306x306, 30 epochs, rescaled, tf.html
-dataset_related/m02cnn on test df, class and probs sorting, color metadata, 16 batch size, rgb, 306x306, 30 epochs, no augmentation, tf.html
-dataset_related/m02cnn on test df, probs sorting, color metadata, 16 batch size, rgb, 306x306, 30 epochs, no augmentation, tf.html
-dataset_related/m01.4cnn on test df, class and probs sorting, no metadata, 16 batch size, rgb, 306x306, 30 epochs, rotated, tf.html
-dataset_related/m01.4cnn on test df, probs sorting, no metadata, 16 batch size, rgb, 306x306, 30 epochs, rotated, tf.html
-dataset_related/m02.1cnn on test df, class and probs sorting, color-face metadata, 16 batch size, rgb, 306x306, 30 epochs, no augmentation, tf.html
-dataset_related/m02.1cnn on test df, probs sorting, color-face metadata, 16 batch size, rgb, 306x306, 30 epochs, no augmentation, tf.html
+dataset_related/*.html
