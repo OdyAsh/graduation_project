@@ -368,6 +368,7 @@ dependencies:
   - qalsadi==0.4.6
   - rapidfuzz==2.13.7
   - rarfile==4.0
+  - requests==2.28.1
   - retina-face==0.0.13
   - rfc3986==1.5.0
   - rich==13.3.1
@@ -395,6 +396,7 @@ dependencies:
   - tritonclient==2.31.0
   - uc-micro-py==1.0.1
   - unicodedata2==15.0.0
+  - uuid==1.30
   - uvicorn==0.20.0
   - validators==0.20.0
   - vine==5.0.0
