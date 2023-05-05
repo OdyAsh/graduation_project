@@ -1,6 +1,8 @@
 .conda/*
+.mamba/*
 imgurApi.txt
 Selfie-*
+MNIST/*
 dataset/*
 dataset_old/*
 dataset_split/*
