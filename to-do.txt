@@ -1,5 +1,4 @@
-re order names of ememes after removing all corrupted (do that to all other folders)
-(with that same step, make sure the academic photos are renamed)
+create another environment to work with dataset_preprocessing ipynb files
 
 put all "import " statements in dataset_...2.ipynb at the top cell
 

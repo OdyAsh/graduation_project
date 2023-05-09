@@ -1,0 +1,5 @@
+1. when creating environment from environment.yml, 
+make sure "simple-hierarchy" library has --no-deps argument next to it. 
+Alternative, temporarily remove it from environment.yml, 
+then after creating the env, install it with --no-deps argument
+
