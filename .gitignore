@@ -2,7 +2,7 @@
 .mamba/*
 imgurApi.txt
 Selfie-*
-MNIST/*
+MNIST/**
 dataset/*
 dataset_old/*
 dataset_split/*
