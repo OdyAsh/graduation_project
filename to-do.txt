@@ -15,3 +15,51 @@ Option 2: Fetching the image metadata while the model is fetching images in a cu
 However, this approach also has some drawbacks. For example, it may increase the processing time required to load and integrate the metadata with the image data, which could slow down the overall training process. Additionally, this approach may limit your ability to apply certain transformations or filters to the metadata, as it may be difficult to manipulate the metadata while the model is fetching the images.
 
 Ultimately, the choice between these two options depends on the specific requirements and constraints of your DL training process. If you have limited computational resources and need to optimize the storage and processing overhead, Option 2 may be more efficient. On the other hand, if you need more flexibility and control over the metadata and want to separate it from the image data, Option 1 may be more suitable.
+
+94787 train images
+20311 val images
+so, #steps per epoch (if sampler is not batch):
+115098
+
+2962 training steps
+634 validation steps
+so #steps per epoch (if sampler is batch):
+3596
+
+20312 test images
+634 testing steps
+
+loss 5926
+val_loss 1270
+test_loss 0
+step_loss 5926
+step_val_loss 1270
+step_test_loss 0
+loss_output_layer_0 43152
+acc_output_layer_0 43176
+f1_score_output_layer_0 86328
+val_loss_output_layer_0 43152
+val_acc_output_layer_0 43176
+val_f1_score_output_layer_0 86328
+val_y_pred_output_layer_0 1380864
+val_y_true_output_layer_0 1380864
+test_loss_output_layer_0 43152
+test_acc_output_layer_0 43176
+test_f1_score_output_layer_0 86328
+test_y_pred_output_layer_0 1380864
+test_y_true_output_layer_0 1380864
+step_loss_output_layer_0 43152
+step_acc_output_layer_0 43176
+step_f1_score_output_layer_0 86328
+step_y_pred_output_layer_0 1380864
+step_y_true_output_layer_0 1380864
+step_val_loss_output_layer_0 43152
+step_val_acc_output_layer_0 43176
+step_val_f1_score_output_layer_0 86328
+step_val_y_pred_output_layer_0 1380864
+step_val_y_true_output_layer_0 1380864
+step_test_loss_output_layer_0 43152
+step_test_acc_output_layer_0 43176
+step_test_f1_score_output_layer_0 86328
+step_test_y_pred_output_layer_0 1380864
+step_test_y_true_output_layer_0 1380864
