@@ -1,0 +1,4 @@
+1. functions for scraping (for educational purposes)
+2. logging anything using csv (hierarchical model), to be similar to tensorflow's history (which can store non-scalar values)
+3. don't log by directly appending to lists in lightning module (use custom tensor instead)
+    4. or use list of dicts, then combine after at epoch end (like bavly gp)
