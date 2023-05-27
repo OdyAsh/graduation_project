@@ -1,3 +1,6 @@
+# overwrites pip dependencies' section in environment.yml file with output of "pip list" command (set --overwrite to true)
+# however, pip list also displays packages installed by conda/mamba, so it is preferable to double check environment.yml file
+# if you'll run this python script
 import subprocess
 import sys
 import yaml
