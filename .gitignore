@@ -20,3 +20,4 @@ dataset_related/*.html
 dataset_related/test_data_features_v01.csv
 dataset_related/train_data_features_v01.csv
 dataset_related/val_data_features_v01.csv
+dataset_related/imgsPropsv3.csv
