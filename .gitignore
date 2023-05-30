@@ -15,9 +15,11 @@ secrets/chatgbt_prompts.txt
 dataset_related/Egyptian_Arabic_Conversational_Speech_Corpus/*
 dataset_related/archive_2/*
 academicimagestemp/*
-dataset_related/imgsPropsv2.csv
+dataset_related/imgsPropsv1.csv
 dataset_related/*.html
 dataset_related/test_data_features_v01.csv
 dataset_related/train_data_features_v01.csv
 dataset_related/val_data_features_v01.csv
-dataset_related/imgsPropsv3.csv
+dataset_related/imgsPropsv0.csv
+dataset_related/imgsPropsv1.csv
+dataset_related/imgsPropsv2.csv
