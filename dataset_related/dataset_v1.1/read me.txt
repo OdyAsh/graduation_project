@@ -1,0 +1,1 @@
+same as dataset v1 (which is "dataset" directory in project root directory), but only the classes here are changed (some images were deleted in each of these classes as a cleaning step)
