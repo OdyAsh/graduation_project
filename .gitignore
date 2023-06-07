@@ -24,3 +24,5 @@ dataset_related/imgsPropsv0.csv
 dataset_related/imgsPropsv1.csv
 dataset_related/imgsPropsv2.csv
 dataset_related/imgsPropsv1.csv
+dataset_related/dataset_v2_related_models/m01.5cnn test -  class and probs sorting, same as m01.1, but v02 dataset.html
+dataset_related/dataset_v2_related_models/m01.5cnn test -  probs sorting, same as m01.1, but v02 dataset.html
