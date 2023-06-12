@@ -8,7 +8,7 @@
             "open": true,
             "focus": false,
             "commands": [
-                "\".env\\scripts\\activate.bat\""
+                "\".mamba\\scripts\\activate.bat\""
             ]
         }
     ]

@@ -152,7 +152,11 @@ def main():
         if args.leaves_dependencies:
             print()
         print('packages not required by other packages:\n')
-        pp.pprint([pkg for pkg, val in package_name_to_req_by.items() if len(val) == 0])
+        not_req_pkgs = [pkg for pkg, val in package_name_to_req_by.items() if len(val) == 0]
+        if len(not_req_pkgs > 0):
+            pp.pprint(not_req_pkgs)
+        else:
+            print("None")
 
     if args.uninstall_packages:
         if not args.packages:
@@ -195,12 +199,16 @@ def main():
         if args.show_package_installer is False:
             pp.pprint([pkg for pkg in package_name_to_reqs[package_name] if len(package_name_to_req_by[pkg]) <= 1])
         else:
-            print('pip installed:')
-            pp.pprint([pkg for pkg in package_name_to_reqs[package_name] if len(package_name_to_req_by[pkg]) <= 1 and pkg in pip_packages_installed])
-            print('mamba/conda installed:')
-            pp.pprint([pkg for pkg in package_name_to_reqs[package_name] if len(package_name_to_req_by[pkg]) <= 1 and pkg not in pip_packages_installed])
-        print()
-
+            not_req_pkgs_by_pip = [pkg for pkg in package_name_to_reqs[package_name] if len(package_name_to_req_by[pkg]) <= 1 and pkg in pip_packages_installed]
+            not_req_pkgs_by_mamba = [pkg for pkg in package_name_to_reqs[package_name] if len(package_name_to_req_by[pkg]) <= 1 and pkg not in pip_packages_installed]
+            if len(not_req_pkgs_by_pip) > 0:
+                print('pip installed:')
+                pp.pprint(not_req_pkgs_by_pip)
+            if len(not_req_pkgs_by_mamba) > 0:
+                print('mamba/conda installed:')
+                pp.pprint(not_req_pkgs_by_mamba)
+            if len(not_req_pkgs_by_pip) + len(not_req_pkgs_by_mamba) == 0:
+                print("None")
         print()
 
 if __name__ == "__main__":
