@@ -10,6 +10,16 @@ are shown in the [project's dissertation paper](https://nbviewer.org/github/OdyA
 
 (note: if the pdf takes too much time to load, [directly download it instead](./gp_related/documents/Ashraf%20196280%20-%20EPIC%20-%20GP%20Dissertation%20PDF.pdf))
 
+Project Abstract:
+
+Manually filtering Personal images (PIs) from irrelevant ones (IRIs) on one’s phone gallery can be time consuming, thus a custom dataset was created from social media platforms like Facebook and Reddit, categorized to 9 classes, then trained on variants of CNN models where the hierarchical CNNs yielded the best average f1 score of 0.871.
+
+Project Overview:
+
+![EPIC - Overview](https://github.com/OdyAsh/graduation_project/assets/66007637/e0aa1098-1d48-451e-a465-6bd8718f8425)
+
+
+
 Graduation poster:
 
 ![graduation poster](./gp_related/documents/Ashraf%20196280%20-%20EPIC%20Poster%20Presentation.png)
